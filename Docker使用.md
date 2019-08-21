@@ -55,6 +55,8 @@ MacBook-Pro:homebrew-cask LeoShi$ docker info
 /Users/{YourUserName}/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw
 ````
 
+- [容器运行位置](./Pycharm使用.md)
+
 #### 容器相关操作
 
 - 查看当前使用的docker
