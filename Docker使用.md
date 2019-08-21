@@ -50,6 +50,12 @@ MacBook-Pro:homebrew-cask LeoShi$ docker info
 
 #### 使用
 
+- Docker路径存放位置
+````
+/Users/{YourUserName}/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw
+````
+
+
 - 查看当前使用的docker
 ````
 MacBook-Pro:homebrew-cask LeoShi$ docker ps -a 
