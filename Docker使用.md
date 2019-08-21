@@ -48,13 +48,14 @@ MacBook-Pro:homebrew-cask LeoShi$ docker info
  Product License: Community Engine
 ````
 
-#### 使用
+#### 路径存放位置
 
 - Docker路径存放位置
 ````
 /Users/{YourUserName}/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw
 ````
 
+#### 容器相关操作
 
 - 查看当前使用的docker
 ````
