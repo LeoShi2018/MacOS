@@ -20,7 +20,7 @@
 - 查看Docker版本
 
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker --version
+MacBook-Pro:homebrew-cask LeoShi$ docker --version
 ------------------------------
 Docker version 19.03.1, build 74b1e89
 ````
@@ -36,7 +36,7 @@ Docker version 19.03.1, build 74b1e89
 在列表中填写加速器地址即可。修改完成之后，点击 Apply & Restart 按钮，Docker 就会重启并应用配置的镜像地址了。
 
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker info
+MacBook-Pro:homebrew-cask LeoShi$ docker info
 -----查看新的源是否正常-------------------------
 ......
  Insecure Registries:
@@ -52,14 +52,14 @@ shileideMacBook-Pro:homebrew-cask shilei$ docker info
 
 - 查看当前使用的docker
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker ps -a 
+MacBook-Pro:homebrew-cask LeoShi$ docker ps -a 
 ------------------------------
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                     PORTS               NAMES
 5146a15da87f        hello-world         "/hello"            8 minutes ago       Exited (0) 8 minutes ago                       sleepy_perlman
 ````
 - 查看当前服务器所存在的镜像
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker images
+MacBook-Pro:homebrew-cask LeoShi$ docker images
 ------------------------------
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 hello-world         latest              fce289e99eb9        7 months ago        1.84kB
@@ -67,14 +67,14 @@ hello-world         latest              fce289e99eb9        7 months ago        
 
 - 只显示容器ID
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker ps -aq
+MacBook-Pro:homebrew-cask LeoShi$ docker ps -aq
 ------------------------------   
 5146a15da87f
 ````
 
 - 强制批量删除容器
 ````
-shileideMacBook-Pro:homebrew-cask shilei$ docker rm -f `docker ps -aq`
+MacBook-Pro:homebrew-cask LeoShi$ docker rm -f `docker ps -aq`
 ------------------------------
 5146a15da87f
 ````
