@@ -41,4 +41,9 @@ verify_ssl = true
 python_version = "3.5"
 ````
 
+# 大坑
+
+自己的Home/路径下也有一个Pipfile也需要修改
+
+
 ## END
