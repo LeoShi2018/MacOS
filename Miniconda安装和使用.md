@@ -163,9 +163,9 @@ Executing transaction: done
 > conda env export > 文件路径/名称
 
 ````
-(env_talib) shileideMacBook-Pro:envs shilei$ conda env export > env_talib.yml
+(env_talib) LeoShideMacBook-Pro:envs LeoShi$ conda env export > env_talib.yml
 ------------------------------
-(env_talib) shileideMacBook-Pro:envs shilei$ cat env_talib.yml 
+(env_talib) LeoShideMacBook-Pro:envs LeoShi$ cat env_talib.yml 
 name: env_talib
 channels:
   - quantopian
@@ -194,7 +194,7 @@ dependencies:
   - wheel=0.31.1=py35_0
   - xz=5.2.4=h1de35cc_4
   - zlib=1.2.11=h1de35cc_3
-prefix: /Users/shilei/miniconda3/envs/env_talib
+prefix: /Users/LeoShi/miniconda3/envs/env_talib
 ````
 
 
